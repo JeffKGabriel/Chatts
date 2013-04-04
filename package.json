@@ -1,5 +1,5 @@
 {
-  "name": "chat_room",
+  "name": "Chatts",
   "version": "1.0.0-42",
   "main": "server.js",
   "scripts": {
