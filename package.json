@@ -1,0 +1,20 @@
+{
+  "name": "chat_room",
+  "version": "1.0.0-42",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "0.9.6",
+    "connect": "1.9.2",
+    "chatter": "0.0.1"
+  },
+  "author": "JG",
+  "license": "BSD",
+  "subdomain": "ChatAyeAyeCapitan",
+  "engines": {
+    "node": "0.8.x"
+  }
+}
