@@ -8,7 +8,6 @@ var chat_room = io.listen(app);
 chat_room.configure( function(){
 		chat_room.set("transports",["xhr-polling"]);
 		chat_room.set("polling duration",10);
-
 });
 
 chatter.set_sockets(chat_room.sockets);
